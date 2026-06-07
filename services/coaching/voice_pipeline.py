@@ -46,8 +46,7 @@ class VoicePipeline:
                 return "The user's elbow is drifting away from their side during the curl."
 
         elif exercise == "Shoulder Press":
-            back_arch = metrics.get("back_arch_status", "")
-            extension = metrics.get("extension_status", "")
+            back_arch = metrics.get("back_arch_status", "")           
             
             if back_arch == "Excessive Arch":
                 return "The user is arching their lower back excessively during the press."
