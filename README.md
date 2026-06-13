@@ -1,4 +1,4 @@
-# 🏋️‍♂️ AI Real-time GYM Coach
+#  AI Real-time GYM Coach
  
 An AI-powered gym coaching web app that uses your camera to detect exercise form in real time, counts reps and sets, and delivers live voice feedback via an LLM-powered coach.
  
